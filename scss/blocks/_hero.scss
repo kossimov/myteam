@@ -75,22 +75,37 @@
   } 
 
   .hero__title-wrapper {
-    min-width: 635px;
+    width: 635px;
   }
 
   .hero__title {
     font-weight: 700;
-    font-size: 90px;
+    font-size:100px;
+    line-height: 100px;
     text-align: start;
   }
 
   .hero__text-wrapper {
-    min-width: 445px;
+    padding-top: 80px;
+    max-width: 445px;
   }
 
   .hero__item {
+    position: relative;
     font-size: 18px;
     line-height: 28px;
     text-align: start;
+  }
+
+  .hero__item::before {
+    position: absolute;
+    top: calc(10% - 70px);
+    left: calc(10% - 45px);
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-image: url("../images/build-line.svg");
+    background-size: 100%;
+    content: "";
   }
 }
