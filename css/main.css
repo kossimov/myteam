@@ -604,6 +604,7 @@ img {
 }
 .build {
   padding-top: 100px;
+  padding-bottom: 130px;
   background-color: #012f34;
   background-image: url("../images/build-bgi.png");
   background-repeat: no-repeat;
