@@ -1,0 +1,18 @@
+@mixin und-style-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+@mixin hover-link {
+  color: var(--main-results-color-wt);
+  background-color: var(--main-text-bg-color);
+}
+
+@mixin active-link {
+  color: var(--main-initiation-color);
+  background-color: transparent;
+  border: 2px solid var(--main-initiation-color);
+  opacity: 0.6;
+}
