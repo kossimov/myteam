@@ -50,9 +50,34 @@
   }
 }
 
+@media only screen and (min-width: 335px) {
+  .initiation::before {
+    right: calc(50% + -32px);
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  .initiation::before {
+    right: calc(50% + -25px);
+  }
+}
+
+
 @media only screen and (min-width: 370px) {
   .initiation::before {
     right: calc(50% + -15px);
+  }
+}
+
+@media only screen and (min-width: 385px) {
+  .initiation::before {
+    right: calc(50% + -8px);
+  }
+}
+
+@media only screen and (min-width: 405px) {
+  .initiation::before {
+    right: calc(50% + 2px);
   }
 }
 
@@ -62,9 +87,27 @@
   }
 }
 
+@media only screen and (min-width: 455px) {
+  .initiation::before {
+    right: calc(50% + 28px);
+  }
+}
+
+@media only screen and (min-width: 473px) {
+  .initiation::before {
+    right: calc(50% + 37px);
+  }
+}
+
 @media only screen and (min-width: 500px) {
   .initiation::before {
     right: calc(50% + 50px);
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  .initiation::before {
+    right: calc(50% + 60px);
   }
 }
 
@@ -74,9 +117,16 @@
   }
 }
 
+
 @media only screen and (min-width: 570px) {
   .initiation::before {
     right: calc(50% + 85px);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .initiation::before {
+    right: calc(50% + 100px);
   }
 }
 
@@ -86,9 +136,21 @@
   }
 }
 
+@media only screen and (min-width: 653px) {
+  .initiation::before {
+    right: calc(50% + 127px);
+  }
+}
+
 @media only screen and (min-width: 675px) {
   .initiation::before {
     right: calc(50% + 137px);
+  }
+}
+
+@media only screen and (min-width: 698px) {
+  .initiation::before {
+    right: calc(50% + 150px);
   }
 }
 

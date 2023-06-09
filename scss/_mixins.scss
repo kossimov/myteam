@@ -16,3 +16,12 @@
   border: 2px solid var(--main-initiation-color);
   opacity: 0.6;
 }
+
+@mixin footer-item-style {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--main-color);
+  opacity: 0.6;
+}
