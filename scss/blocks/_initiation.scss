@@ -1,0 +1,386 @@
+.initiation {
+  background-color: var(--main-initiation-bg-color);
+  position: relative;
+
+  &::before {
+    position: absolute;
+    bottom: 0;
+    right: calc(50% + -39px);
+    width: 200px;
+    height: 125px;
+    background-image: url("../../images/initiation-before.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+  }
+}
+
+.initiation__wrapper {
+  padding: 83px 0;
+  text-align: center;
+}
+
+.initiation__heading {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--main-initiation-color);
+}
+
+.initiation__link {
+  display: inline-block;
+  padding: 10px 32px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  color: var(--main-initiation-color);
+  border: 2px solid var(--main-initiation-color);
+  border-radius: 24px;
+
+  &:hover {
+    @include hover-link;
+  }
+
+  &:active {
+    @include active-link;
+  }
+}
+
+@media only screen and (min-width: 335px) {
+  .initiation::before {
+    right: calc(50% + -32px);
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  .initiation::before {
+    right: calc(50% + -25px);
+  }
+}
+
+
+@media only screen and (min-width: 370px) {
+  .initiation::before {
+    right: calc(50% + -15px);
+  }
+}
+
+@media only screen and (min-width: 385px) {
+  .initiation::before {
+    right: calc(50% + -8px);
+  }
+}
+
+@media only screen and (min-width: 405px) {
+  .initiation::before {
+    right: calc(50% + 2px);
+  }
+}
+
+@media only screen and (min-width: 430px) {
+  .initiation::before {
+    right: calc(50% + 15px);
+  }
+}
+
+@media only screen and (min-width: 455px) {
+  .initiation::before {
+    right: calc(50% + 28px);
+  }
+}
+
+@media only screen and (min-width: 473px) {
+  .initiation::before {
+    right: calc(50% + 37px);
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .initiation::before {
+    right: calc(50% + 50px);
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  .initiation::before {
+    right: calc(50% + 60px);
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  .initiation::before {
+    right: calc(50% + 70px);
+  }
+}
+
+
+@media only screen and (min-width: 570px) {
+  .initiation::before {
+    right: calc(50% + 85px);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .initiation::before {
+    right: calc(50% + 100px);
+  }
+}
+
+@media only screen and (min-width: 630px) {
+  .initiation::before {
+    right: calc(50% + 115px);
+  }
+}
+
+@media only screen and (min-width: 653px) {
+  .initiation::before {
+    right: calc(50% + 127px);
+  }
+}
+
+@media only screen and (min-width: 675px) {
+  .initiation::before {
+    right: calc(50% + 137px);
+  }
+}
+
+@media only screen and (min-width: 698px) {
+  .initiation::before {
+    right: calc(50% + 150px);
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .initiation::before {
+    right: calc(50% + 160px);
+  }
+
+}
+
+@media only screen and (min-width: 750px) {
+  .initiation::before {
+    right: calc(50% + 175px);
+  }
+
+  .initiation__tex-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .initiation__heading {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .initiation::before {
+    right: calc(50% + 200px);
+  }
+
+  .initiation__tex-box {
+    max-width: 650px;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  .initiation::before {
+    right: calc(50% + 220px);
+  }
+}
+
+@media only screen and (min-width: 880px) {
+  .initiation::before {
+    right: calc(50% + 240px);
+  }
+
+  .initiation__tex-box {
+    max-width: 700px;
+  }
+
+  .initiation__heading {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .initiation::before {
+    right: calc(50% + 260px);
+  }
+
+  .initiation__tex-box {
+    max-width: 750px;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .initiation::before {
+    right: calc(50% + 275px);
+  }
+
+  .initiation__tex-box {
+    max-width: 800px;
+  }
+
+  .initiation__heading {
+    font-size: 37px;
+    line-height: 37px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .initiation::before {
+    right: calc(50% + 300px);
+  }
+
+  .initiation__tex-box {
+    max-width: 850px;
+  }
+}
+
+@media only screen and (min-width: 1040px) {
+  .initiation::before {
+    right: calc(50% + 320px);
+  }
+
+  .initiation__tex-box {
+    max-width: 900px;
+  }
+
+  .initiation__heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .initiation::before {
+    right: calc(50% + 340px);
+  }
+
+  .initiation__tex-box {
+    max-width: 950px;
+  }
+
+  .initiation__heading {
+    font-size: 43px;
+    line-height: 43px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .initiation::before {
+    right: calc(50% + 360px);
+  }
+
+  .initiation__wrapper {
+    padding-top: 76px;
+    padding-bottom: 76px;
+  }
+
+  .initiation__heading {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .initiation::before {
+    right: calc(50% + 370px);
+  }
+
+  .initiation__heading {
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
+
+@media only screen and (min-width: 1160px) {
+  .initiation::before {
+    right: calc(50% + 380px);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .initiation::before {
+    right: calc(50% + 400px);
+  }
+
+  .initiation__tex-box {
+    max-width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .initiation::before {
+    right: calc(50% + 420px);
+  }
+
+  .initiation__tex-box {
+    max-width: 1040px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .initiation::before {
+    right: calc(50% + 440px);
+  }
+
+  .initiation__tex-box {
+    max-width: 1080px;
+  }
+}
+
+@media only screen and (min-width: 1320px) {
+  .initiation::before {
+    right: calc(50% + 460px);
+  }
+
+  .initiation__tex-box {
+    max-width: 1110px;
+  }
+}
+
+
+@media only screen and (min-width: 1360px) {
+  .initiation::before {
+    right: calc(50% + 480px);
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .initiation::before {
+    right: calc(50% + 500px);
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .initiation::before {
+    right: calc(50% + 520px);
+  }
+}
+
+@media only screen and (min-width: 1480px) {
+  .initiation::before {
+    right: calc(50% + 540px);
+  }
+}
+
+@media only screen and (min-width: 1520px) {
+  .initiation::before {
+    right: calc(50% + 555px);
+  }
+
+  .initiation__heading {
+    font-size: 48px  ;
+  line-height: 48px;
+  }
+}
