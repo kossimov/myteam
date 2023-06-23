@@ -1,0 +1,85 @@
+.service {
+  background-color: #014e56;
+}
+.service__wrapper {
+  padding: 80px 24px 108px 24px;
+}
+.service__info {
+  // position: relative;
+}
+// .service__info::after  {
+  //     position: absolute;
+  //     top: 310px;
+  //     left: 130px;
+  //     width: 200px;
+  //     height: 200px;
+  //     background-image: url("../../imges/abouthero.svg");
+  //     background-size: 200px 200px;
+  //     overflow: scroll;
+  //     content: "";
+  // }
+  .service__title {
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: #fff;
+  }
+  .service__text {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 28px;
+      text-align: center;
+      color: #fff;
+  }
+  @media only screen and (min-width:768px) {
+      .service__wrapper {
+          padding: 100px 155px 112px 155px;
+      }
+      .service__title {
+          margin-bottom: 24px;
+          font-size: 64px;
+          line-height: 56px;
+      }
+      .service__text {
+          font-size: 15px;
+          line-height: 28px;
+      }
+  }
+  @media only screen and (min-width:1140px) {
+      .service__wrapper {
+          padding: 120px 0 120px 0;
+      }
+      .service__info { 
+          display: flex;
+          justify-content: space-between;
+      }
+     
+      .service__title {
+          margin-bottom: 0;
+          font-size: 64px;
+          line-height: 100px;
+      }
+      .service__subinfo {
+          max-width: 730px;
+      }
+      .service__text {
+          position: relative;
+          text-align: left;
+          font-size: 18px;
+          line-height: 28px;
+      }
+      .service__text::before {
+          position: absolute;
+          top: -40px;
+          left: 0;
+          width: 50px;
+          height: 4px;
+          background-color: #f67e7e;
+          content: "";
+         }
+  } 

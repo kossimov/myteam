@@ -43,8 +43,7 @@
   .hero {
     padding-bottom: 256px;
     background-image: url("../images/hero-bg-mobile.svg");
-    background-position-x: calc(50% + 10px);
-    background-position-y: 370px;
+    background-position: calc(50% - 10px) calc(50% + 10px);
   }
   
   .hero__title-wrapper {
@@ -65,8 +64,7 @@
   .hero {
     padding-bottom: 250px;
     background-image: url("../images/hero-bg-mobile.svg");
-    background-position-x: calc(80% + 10px);
-    background-position-y: 350px;
+    background-position: calc(50% + 400px) calc(50% + 175px);
   }
 
   .hero__wrapper {
